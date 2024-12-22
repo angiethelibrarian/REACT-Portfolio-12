@@ -1,4 +1,5 @@
 import coverImage from '../../assets/cover/cover-image.jpg';
+//update image in line 9 description too
 
 function Header(props) {
 

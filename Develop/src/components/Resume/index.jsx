@@ -3,7 +3,8 @@ function Resume() {
     <section className="my-5">
       <div className="my-2">
       <p>
-        Download my <a href="https://www.linkedin.com/">resume</a>
+        Download my <a href="file:///Users/angelicamora/Desktop/RESUME/Resume_Nov2024.pdf">resume</a>
+        {/* how place resume download*/}
         </p>
         <h3>Front-end Proficiencies</h3>
         <ul className="skills">
