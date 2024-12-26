@@ -1,12 +1,12 @@
-import coverImage from '../../assets/cover/cover-image.jpg';
+import coverImage from '../../assets/cover/cover-image-2.png';
 //update image in line 9 description too
 
 function Header(props) {
 
   return (
     <header className="flex-row space-between px-1">
-      <h1>Lernantino</h1>
-      <img src={coverImage} alt="wooden background"></img>
+      <h1>My REACT Portfolio</h1>
+      <img src={coverImage} alt="wrinkly document"></img>
       {props.children}
     </header>
   );

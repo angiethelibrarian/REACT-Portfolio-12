@@ -6,37 +6,37 @@ function Portfolio() {
   // Replace links with deployed projects and GitHub repos
   const [projects] = useState([
     {
-      name: 'surfReport',
-      description: 'MERN Stack',
-      link: "https://github.com",
-      repo: "https://github.com"
+      name: 'readMeCreator',
+      description: 'Command-line Application',
+      link: "https://github.com/angiethelibrarian/Professional-README-Creator",
+      repo: "https://github.com/angiethelibrarian/Professional-README-Creator"
     },
     {
-      name: 'pastelPuzzels',
-      description: 'MERN Stack',
-      link: "https://github.com",
-      repo: "https://github.com"
+      name: 'partyPlanner',
+      description: 'Interactive Front-End',
+      link: "https://angiethelibrarian.github.io/Party-Planner-Project1/",
+      repo: "https://github.com/angiethelibrarian/Party-Planner-Project1"
     },
     {
-      name: 'runBuddy',
-      description: 'HTML/CSS',
-      link: "https://github.com",
-      repo: "https://github.com"
+      name: 'vehicleBuilder',
+      description: 'Typescript',
+      link: "https://github.com/angiethelibrarian/Professional-Vehicle-Builder",
+      repo: "https://github.com/angiethelibrarian/Professional-Vehicle-Builder"
     },
     {
-      name: 'ledWall',
-      description: 'Node/IoT',
-      link: "https://github.com",
-      repo: "https://github.com"
+      name: 'fullStackForum',
+      description: 'Full Stack Application',
+      link: "https://github.com/angiethelibrarian/FullStackForum",
+      repo: "https://github.com/angiethelibrarian/FullStackForum"
     },
     {
-      name: 'calculator',
-      description: 'React/JavaScript/CSS',
-      link: "https://github.com",
-      repo: "https://github.com"
+      name: 'cmsEmployeeTracker',
+      description: 'SQL',
+      link: "https://github.com/angiethelibrarian/CMS-Employee-Tracker",
+      repo: "https://github.com/angiethelibrarian/CMS-Employee-Tracker"
     },
   ]);
-
+console.log(projects);
   return (
     <div>
       <div className="flex-row">

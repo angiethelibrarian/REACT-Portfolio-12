@@ -4,7 +4,7 @@ main {
   padding: 50px 30px;
 }
 :root {
-  --primary: #8c54ff;
+  --primary: hsl(260, 100%, 66%), 100%, 66%);
   --secondary: #31343D;
   --tertiary: #b12704;
   --light: #fafafa;
@@ -33,8 +33,8 @@ body {
   line-height: 1.5;
   font-size: 18px;
   letter-spacing: 0.1em;
-  background: var(--darker);
-  color: var(--light);
+  background: var(black--darker);
+  color: var(black--light);
   font-family: 'Open Sans', sans-serif;
 }
 
@@ -95,6 +95,10 @@ a:hover {
 
 header {
   background: var(--dark);
+}
+
+header img {
+  width: 100%;
 }
 
 header a {
