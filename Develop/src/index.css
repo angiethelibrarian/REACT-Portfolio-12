@@ -83,7 +83,7 @@ p {
 }
 
 a {
-  color: var(--light);
+  color: var(--darker);
   text-decoration: none;
   opacity: .5;
 }
